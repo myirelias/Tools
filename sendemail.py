@@ -33,11 +33,11 @@ class EmailSender(object):
         if isinstance(spidermsg, dict):
             spidermsg['time'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             # 发件人地址，需开启smtp服务
-            from_addr = 'myirelias@163.com'
+            from_addr = '******@163.com'
             # smtp授权码(目前暂时限于163邮箱)
-            password = '0107unkown'
+            password = '*****'
             # 目标邮件地址
-            to_addr = 'myirelia@aliyun.com'
+            to_addr = '******@aliyun.com'
             # smtp地址
             smtp_server = 'smtp.163.com'
             # 邮件主体
